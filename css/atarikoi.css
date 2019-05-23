@@ -395,13 +395,11 @@ h3.inner-heading {
   grid-gap: 0;
 }
 
-.brands-selection .card-container.a-top,
 .categories-selection .card-container.a-top {
   align-items: top;
 }
 
-.brands-selection .card-container.a-center,
-.categories-selection .card-container.a-center {
+.brands-selection .card-container.a-center {
   align-items: center;
 }
 
@@ -436,6 +434,10 @@ h3.inner-heading {
 /* Special override for brands only */
 .brands-selection .card img {
   width: 70%;
+}
+
+.brands-selection .card a {
+  height: auto;
 }
 
 .card-container .card label {
