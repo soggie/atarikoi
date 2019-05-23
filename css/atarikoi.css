@@ -458,6 +458,10 @@ h3.inner-heading {
   padding: .5rem 1rem;
 }
 
+.card .cta {
+  align-self: end; 
+}
+
 /* Product page
 ================================================================================
  */
