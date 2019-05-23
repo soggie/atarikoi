@@ -388,17 +388,20 @@ h3.inner-heading {
   margin-bottom: 2rem;
 }
 
-.brands-selection .card-container {
+.brands-selection .card-container, 
+.categories-selection .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-gap: 0;
 }
 
-.brands-selection .card-container.a-top {
+.brands-selection .card-container.a-top,
+.categories-selection .card-container.a-top {
   align-items: top;
 }
 
-.brands-selection .card-container.a-center {
+.brands-selection .card-container.a-center,
+.categories-selection .card-container.a-center {
   align-items: center;
 }
 
@@ -428,6 +431,11 @@ h3.inner-heading {
   margin: 0 auto;
   object-position: 10% center;
   margin-bottom: .5rem;
+}
+
+/* Special override for brands only */
+.brands-selection .card img {
+  width: 70%;
 }
 
 .card-container .card label {
@@ -487,6 +495,28 @@ h3.inner-heading {
 .product-cta .btn-primary {
   border-color: #dc3545;
   background-color: #dc3545;
+}
+
+/* About/contact page
+================================================================================
+ */
+.about-info {
+  padding: 1rem;
+  max-width: 800px;
+  margin: 2rem auto 1rem auto;
+}
+
+.about-info h4 {
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  color: #666;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+
+.about-info p {
+  color: #888;
 }
 
 /* Footer styling
